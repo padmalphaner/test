@@ -1,0 +1,20 @@
+# dive_admin, users, dywhin.com
+dn: uid=dive_admin,ou=users,dc=dywhin,dc=com
+objectClass: shadowAccount
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+cn: DIVEMANAGER_ADMIN
+gidNumber: 1034
+homeDirectory: /home/dive_admin
+sn: dive_admin
+uid: dive_admin
+uidNumber: 1033
+gecos: dive_admin,,,
+loginShell: /bin/bash
+mail: dive_admin@dywhin.com
+shadowLastChange: 17794
+shadowMax: 99999
+shadowWarning: 6

@@ -1,0 +1,12 @@
+dn: cn=DIVEMANAGER_USER,ou=groups,dc=dywhin,dc=com
+objectClass: groupOfUniqueNames
+description: divemanager_user
+cn: DIVEMANAGER_USER
+uniqueMember: uid=dive_user,ou=users,dc=dywhin,dc=com
+
+
+dn: cn=DIVEMANAGER_ADMIN,ou=groups,dc=dywhin,dc=com
+objectClass: groupOfUniqueNames
+description: divemanager_admin
+cn: DIVEMANAGER_ADMIN
+uniqueMember: uid=dive_admin,ou=users,dc=dywhin,dc=com

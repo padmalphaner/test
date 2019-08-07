@@ -1,0 +1,23 @@
+dn: cn=DIVEMANAGER_USER,ou=groups,dc=dywhin,dc=com
+objectClass: groupOfUniqueNames
+description: divemanager_user
+cn: DIVEMANAGER_USER
+uniqueMember: uid=dive,ou=users,dc=dywhin,dc=com
+uniqueMember: uid=lokesh,ou=users,dc=dywhin,dc=com
+uniqueMember: uid=padma,ou=users,dc=dywhin,dc=com
+
+
+dn: cn=DIVEMANAGER_ADMIN,ou=groups,dc=dywhin,dc=com
+objectClass: groupOfUniqueNames
+description: divemanager_admin
+cn: DIVEMANAGER_ADMIN
+uniqueMember: uid=dive_info,ou=users,dc=dywhin,dc=com
+uniqueMember: uid=uttam,ou=users,dc=dywhin,dc=com
+
+
+dn: cn=DIVEMANAGER_ADMIN,ou=groups,dc=dywhin,dc=com
+objectclass: top
+objectclass: groupOfUniqueNames
+cn: DIVEMANAGER_ADMIN
+ou: admin
+uniqueMember: uid=dive_info,ou=users,dc=dywhin,dc=com
