@@ -1,0 +1,8 @@
+{"id" : "record-001",
+	"arguments" : {
+		"Sepal_Length" : 5.1,
+		"Sepal_Width" : 3.5,
+		"Petal_Length" : 3.4,
+		"Petal_Width" : 1.2
+	}
+}
